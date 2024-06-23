@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.button.type3{
+    color: white;
+    text-align: center;
+    margin: 100px 0;
+    font-size: 18px;
+}
+
+.button.type3{
+    background: none;
+    color: #000;
+}
+
+.button.type svg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    fill: none;
+}
+
+.button.type3{color:#435a6b}
+.button.type3.type3::after,.button.type3.type3::before{content:"";display:block;position:absolute;width:20%;height:20%;border:2px solid;transition:all .6s ease;border-radius:2px}
+.button.type3.type3::after{bottom:0;right:0;border-color:transparent #435a6b #435a6b transparent}
+.button.type3.type3::before{top:0;left:0;border-color:#435a6b transparent transparent #435a6b}
+.button.type3.type3:hover:after,.button.type3.type3:hover:before{border-color:#435a6b;width:100%;height:100%}
